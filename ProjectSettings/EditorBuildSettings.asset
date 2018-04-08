@@ -30,5 +30,8 @@ EditorBuildSettings:
     path: Assets/2DGamekit/Scenes/UI/Loading.unity
     guid: ebc4647ff02971c4ba1b207af066be4d
   - enabled: 1
-    path: Assets/2DGamekit/_Learning/TilePaletteScene.unity
+    path: Assets/2DGamekit/_Learning/learningScene.unity
     guid: cea184ae66131c745bb5d4b990ef47b3
+  - enabled: 1
+    path: Assets/2DGamekit/GamePlay/level1.unity
+    guid: 540d6b2b822ff754682456a98a79f33a
