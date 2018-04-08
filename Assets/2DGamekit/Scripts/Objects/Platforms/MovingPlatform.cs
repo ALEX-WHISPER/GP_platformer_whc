@@ -48,6 +48,14 @@ namespace Gamekit2D
             get { return m_Velocity; }
         }
 
+        public void SetNewNodes(Vector3[] newWorldNodesList) {
+            Reset();
+            ResetPlatform();
+            m_WorldNode = new Vector3[newWorldNodesList.Length];
+            m_WorldNode = newWorldNodesList;
+            StartMoving();
+        }
+
         private void Reset()
         {
             //we always have at least a node which is the local position
